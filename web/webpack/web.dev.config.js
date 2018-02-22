@@ -6,7 +6,7 @@ module.exports = {
   entry: [
     'webpack-hot-middleware/client',
     'babel-polyfill',
-    path.join(__dirname, '../../app/web/index'),
+    path.join(__dirname, '../../App.js'),
   ],
   output: {
     path: path.join(__dirname, '../public'),
